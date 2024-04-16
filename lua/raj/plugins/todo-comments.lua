@@ -1,8 +1,8 @@
 return {
-    'folke/todo-comments.nvim',
-    event = { 'BufReadPre', 'BufNewFile' },
-    dependencies = { 'nvim-lua/plenary.nvim' },
-    config = function() 
+    "folke/todo-comments.nvim",
+    event = { "BufReadPre", "BufNewFile" },
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
         local todo_comments = require("todo-comments")
 
         vim.keymap.set("n", "]t", function()
@@ -14,5 +14,5 @@ return {
         end, { desc = "Previous todo comment" })
 
         todo_comments.setup()
-    end
+    end,
 }
