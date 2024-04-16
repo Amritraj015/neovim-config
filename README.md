@@ -7,6 +7,7 @@ This NeoVim config contains the following plugins:
 - Comment
 - conform
 - dressing
+- gitsigns
 - indent-blankline
 - lazy
 - lazygit
