@@ -24,3 +24,9 @@ opt.splitright = true
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
+
+-- Minimal number of screen lines to keep above and below the cursor.
+vim.opt.scrolloff = 10
+
+-- Sync clipboard between OS and Neovim.
+vim.opt.clipboard = "unnamedplus"
