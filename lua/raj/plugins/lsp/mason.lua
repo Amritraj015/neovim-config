@@ -33,6 +33,7 @@ return {
                 "lua_ls",
                 "angularls",
                 "rust_analyzer",
+                "clangd",
             },
         })
 
