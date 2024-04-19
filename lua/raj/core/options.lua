@@ -30,3 +30,7 @@ opt.scrolloff = 10
 
 -- Sync clipboard between OS and Neovim.
 opt.clipboard = "unnamedplus"
+
+-- go to previous/next line with h,l,left arrow and right arrow
+-- when cursor reaches end/beginning of line
+opt.whichwrap:append("<>[]hl")
