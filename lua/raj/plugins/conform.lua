@@ -19,6 +19,12 @@ return {
                 graphql = { "prettier" },
                 liquid = { "prettier" },
                 lua = { "stylua" },
+                c = { "clang-format" },
+                cpp = { "clang-format" },
+                objc = { "clang-format" },
+                objcpp = { "clang-format" },
+                cuda = { "clang-format" },
+                proto = { "clang-format" },
             },
             format_on_save = {
                 lsp_fallback = true,
@@ -34,5 +40,5 @@ return {
                 timeout_ms = 1000,
             })
         end, { desc = "Format file or range (in visual mode)" })
-    end
+    end,
 }
