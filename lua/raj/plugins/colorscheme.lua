@@ -5,7 +5,7 @@ return {
         -- Custom color for comments.
         require("tokyonight").setup({
             on_colors = function(colors)
-                colors.comment = colors.green1
+                colors.comment = colors.green2
             end,
         })
 
