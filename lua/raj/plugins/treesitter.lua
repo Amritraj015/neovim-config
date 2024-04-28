@@ -10,6 +10,11 @@ return {
     },
     config = function()
         local treesitter = require("nvim-treesitter.configs")
+        local opt = vim.opt
+
+        opt.foldmethod = "expr"
+        opt.foldexpr = "nvim_treesitter#foldexpr()"
+        opt.foldlevelstart = 99
 
         treesitter.setup({
             highlight = { enable = true },
