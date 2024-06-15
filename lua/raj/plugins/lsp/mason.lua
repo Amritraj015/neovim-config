@@ -34,6 +34,7 @@ return {
                 "angularls",
                 "rust_analyzer",
                 "clangd",
+                "csharp_ls",
             },
         })
 
