@@ -31,7 +31,6 @@ return {
                 "html",
                 "cssls",
                 "lua_ls",
-                "angularls",
                 "rust_analyzer",
                 "clangd",
                 "csharp_ls",
