@@ -34,3 +34,8 @@ opt.clipboard = "unnamedplus"
 -- go to previous/next line with h,l,left arrow and right arrow
 -- when cursor reaches end/beginning of line
 opt.whichwrap:append("<>[]hl")
+
+-- Enable folds.
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
+opt.foldlevelstart = 99
