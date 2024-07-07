@@ -39,3 +39,7 @@ opt.whichwrap:append("<>[]hl")
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldlevelstart = 99
+
+-- Enable spell checking.
+opt.spelllang = "en_us"
+opt.spell = true
